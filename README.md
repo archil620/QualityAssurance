@@ -1,43 +1,42 @@
 ## Assignment 1
 ## CSCI 5308- Quality Assurance 
 
-**Operating System used: Windows 10**
- **Programing language used: JAVA v1.8**
- **IDE used: Eclipse Oxygen**
+**Operating System used: Windows 10** <br/>
+ **Programing language used: JAVA v1.8**<br/>
+ **IDE used: Eclipse Oxygen**<br/>
  
  **Library Used**
- JUnit 4.12
- Mockito v1.9.5
+ <br/>JUnit 4.12<br/>
+ Mockito v1.9.5<br/>
  
  **Installation Instruction:**
- Validate.java has a business logic
- Order.java is main clas whic contailns all order data
- dealer.java contains dealer id and access key
- deliveryaddress contains all address info
- Item class contains info about quantity and art number
+ Validate.java has a business logic<br/>
+ Order.java is main class whicch contains all order data<br/>
+ dealer.java contains dealer id and access key<br/>
+ deliveryaddress contains all address info<br/>
+ Item class contains info about quantity and part number<br/>
  
- Security is interface for authorising dealer
- ISecurity is method to implement Security interface
+ Security is interface for authorising dealer<br/>
+ ISecurity is method to implement Security interface<br/>
  
- ValDelivery is interface to validate Address
- Addvali is class to implement ValDelivery class
+ ValDelivery is interface to validate Address<br/>
+ Addvali is class to implement ValDelivery class<br/>
  
- ItemValidate is Interface to validate item data
- itemval is clss to implement ItemValidate interface
+ ItemValidate is Interface to validate item data<br/>
+ itemval is clss to implement ItemValidate interface<br/>
  
 ____
-PARTMANAGER is interface to validate wheter item is in stock, or anymore manufactured
-Response_generator is class which implements PARTMANGER and contains method to validate stocks
-
-Data.java is class which contain mock data.
+PARTMANAGER is interface to validate wheter item is in stock, or anymore manufactured<br/>
+Response_generator is class which implements PARTMANGER and contains method to validate stocks<br/>
+Data.java is class which contain mock data.<br/>
 ___
-Order.xml is original xml provided in assignment1
-order.xsd is XML schema for comparing whether XML is valid or not
-fakeorder.xml is generated for test case of OUT_OF_STOCK
-fake_result.xml is generated for test case of PART_NO_MORE_MANUFACTURED
-UNauthoriseddealer.xml is generated to test if dealer is unauthorised.
+Order.xml is original xml provided in assignment1 <br/>
+order.xsd is XML schema for comparing whether XML is valid or not<br/>
+fakeorder.xml is generated for test case of OUT_OF_STOCK<br/>
+fake_result.xml is generated for test case of PART_NO_MORE_MANUFACTURED<br/>
+UNauthoriseddealer.xml is generated to test if dealer is unauthorised.<br/>
 ___
-*In mock data 1st order is same as given in order.xml, other 2 data are dummy generated for comparing fake data.
+*In mock data 1st order is same as given in order.xml, other 2 data are dummy generated for comparing fake data.<br/>
 ___
 
 **References:**
