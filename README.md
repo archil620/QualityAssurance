@@ -3,6 +3,7 @@
 
 **Operating System used: Windows 10** <br/>
  **Programing language used: JAVA v1.8**<br/>
+ **For compilation, set compiler "Jre 1.8"**<br/>
  **IDE used: Eclipse Oxygen**<br/>
  
  **Library Used**
