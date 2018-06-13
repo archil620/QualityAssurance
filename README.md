@@ -3,7 +3,6 @@
 
 **Operating System used: Windows 10** <br/>
  **Programing language used: JAVA v1.8**<br/>
- **For compilation, set compiler "Jre 1.8"**<br/>
  **IDE used: Eclipse Oxygen**<br/>
  
  **Library Used**
@@ -11,6 +10,13 @@
  Mockito v1.9.5<br/>
  
  **Installation Instruction:**
+ 
+ **Clone this repository**<br/>
+ **You can use any version of eclipse here**<br/>
+ **Import as a maven projects from eclipse**<br/>
+ **For compilation, set compiler "Jre 1.8"**<br/>
+ **I put xml as command line arguement, so while running test please enter whatever xml file you want to test**<br/>
+ 
  Validate.java has a business logic<br/>
  Order.java is main class whicch contains all order data<br/>
  dealer.java contains dealer id and access key<br/>
