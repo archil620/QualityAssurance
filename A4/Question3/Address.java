@@ -1,50 +1,41 @@
 public class Address {
-	
-	String street; 
-	String city;
-	String province;
-	String postalCode;
-	
-	public Address(String street, String city, String province, String postalCode) {
-		this.street = street;
-		this.city = city;
-		this.province = province;
-		this.postalCode = postalCode;
-	}
+    String street;
+    String city;
+    String province;
+    String postalCode;
 
-	public String getStreet() {
-		return street;
-	}
+    public String getCity() {
+        return city;
+    }
 
-	public void setStreet(String street) {
-		this.street = street;
-	}
+    public void setCity(String city) {
+        this.city = city;
+    }
 
-	public String getCity() {
-		return city;
-	}
+    public String getPostalCode() {
+        return postalCode;
+    }
 
-	public void setCity(String city) {
-		this.city = city;
-	}
+    public void setPostalCode(String postalCode) {
+        this.postalCode = postalCode;
+    }
 
-	public String getProvince() {
-		return province;
-	}
+    public String getProvince() {
+        return province;
+    }
 
-	public void setProvince(String province) {
-		this.province = province;
-	}
+    public void setProvince(String province) {
+        this.province = province;
+    }
 
-	public String getPostalCode() {
-		return postalCode;
-	}
+    public String getStreet() {
+        return street;
+    }
 
-	public void setPostalCode(String postalCode) {
-		this.postalCode = postalCode;
-	}
-	
-	
-	
-	
+    public void setStreet(String street) {
+        this.street = street;
+    }
 }
+
+
+
