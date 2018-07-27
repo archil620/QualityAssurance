@@ -1,24 +1,20 @@
+import java.util.HashMap;
+
 public class Help
 {
+	
+	HashMap<String,BaseCommand> hashmap = new HashMap<String, BaseCommand>();
+	
 	public String GetHelp(String command)
 	{
+		hashmap.put("print",new PrintCommand());
+		hashmap.put("open",new OpenCommand());
+		hashmap.put("close",new CloseCommand());
+		
+		
 		if (command != null && command.length() != 0)
 		{
-			switch (command)
-			{
-				case "print":
-				{
-					return "print -f <path> [-colour=0/1] [-two-sided=0/1]";
-				}
-				case "open":
-				{
-					return "open -f <path> [-create=0/1]";
-				}
-				case "close":
-				{
-					return "close -f <path>";
-				}
-			}
+			return hashmap.get(command).getCommand();
 		}
 		return ListAllCommands();
 	}
