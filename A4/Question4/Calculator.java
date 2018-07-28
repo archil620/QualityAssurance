@@ -1,6 +1,6 @@
 public class Calculator {
     public static int Add(int left, int right) {
-        Addition addition = new Addition(right, right);
+        Addition addition = new Addition(left, right);
 
         return addition.GetResult();
     }
