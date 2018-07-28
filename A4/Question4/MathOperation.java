@@ -1,4 +1,4 @@
-public class MathOperation {
+public abstract class MathOperation {
     protected int leftOperand;
     protected int rightOperand;
 
@@ -7,21 +7,8 @@ public class MathOperation {
         this.rightOperand = rightOperand;
     }
 
-    public int getLeftOperand() {
-        return leftOperand;
-    }
-
-    public void setLeftOperand(int leftOperand) {
-        this.leftOperand = leftOperand;
-    }
-
-    public int getRightOperand() {
-        return rightOperand;
-    }
-
-    public void setRightOperand(int rightOperand) {
-        this.rightOperand = rightOperand;
-    }
+    public abstract int GetResult();
 }
+
 
 
