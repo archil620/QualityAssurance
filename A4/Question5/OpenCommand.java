@@ -1,4 +1,4 @@
-public class OpenCommand implements BaseCommand {
+public class OpenCommand implements IBaseCommand {
 
 	@Override
 	public String getCommand() {

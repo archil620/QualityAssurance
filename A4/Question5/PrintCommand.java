@@ -1,5 +1,4 @@
-
-public class PrintCommand implements BaseCommand {
+public class PrintCommand implements IBaseCommand {
 
 	@Override
 	public String getCommand() {

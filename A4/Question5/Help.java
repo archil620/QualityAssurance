@@ -3,7 +3,7 @@ import java.util.HashMap;
 public class Help
 {
 	
-	HashMap<String,BaseCommand> hashmap = new HashMap<String, BaseCommand>();
+	HashMap<String,IBaseCommand> hashmap = new HashMap<String, IBaseCommand>();
 	
 	public String GetHelp(String command)
 	{
